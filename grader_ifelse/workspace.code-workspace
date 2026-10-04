@@ -1,0 +1,20 @@
+{
+	"folders": [],
+	"settings": {
+		"terminal.integrated.defaultProfile.windows": "Command Prompt",
+		"terminal.integrated.profiles.windows": {
+			"Command Prompt": {
+				"args": [
+					"/d"
+				],
+				"path": "${env:windir}\\System32\\cmd.exe"
+			}
+		},
+		"terminal.integrated.env.windows": {
+			"Path": "C:\\msys64\\ucrt64\\bin;${env:Path}"
+		},
+		"cph.language.cpp.Command": "C:/msys64/ucrt64/bin/g++.exe",
+		"cph.language.cpp.Args": "-std=c++17 -O2 -Wall -Wextra -static",
+		"cph.language.cpp.SubmissionCompiler": "GNU G++17 9.2.0 (64 bit, msys 2)"
+	}
+}
